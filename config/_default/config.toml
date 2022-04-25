@@ -4,8 +4,6 @@
 
 baseURL = "https://fascinating-cendol-e8172e.netlify.app/"
 
-theme = "congo"
-
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
