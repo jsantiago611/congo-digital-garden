@@ -55,7 +55,7 @@
 
 @font-face {
   font-family: "Heldane";
-  src: url("/font/HeldaneDisplayWeb-Bold.woff") format("woff");
+  src: url("/fonts/HeldaneDisplayWeb-Bold.woff") format("woff");
   display: swap;
   font-weight: 700;
   font-style: normal;
@@ -63,7 +63,7 @@
 
 @font-face {
   font-family: "Heldane";
-  src: url("/font/HeldaneDisplayWeb-Medium.woff") format("woff");
+  src: url("/fonts/HeldaneDisplayWeb-Medium.woff") format("woff");
   display: swap;
   font-weight: 500;
   font-style: normal;
@@ -71,7 +71,7 @@
 
 @font-face {
   font-family: "Heldane";
-  src: url("/font/HeldaneDisplayWeb-Regular.woff") format("woff");
+  src: url("/fonts/HeldaneDisplayWeb-Regular.woff") format("woff");
   display: swap;
   font-weight: 400;
   font-style: normal;
