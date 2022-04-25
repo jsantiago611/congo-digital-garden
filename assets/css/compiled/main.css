@@ -2,6 +2,23 @@
 
 /*! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com */
 
+@font-face {
+  font-family: "Heldane-Text";
+  src: url("/fonts/HeldaneTextWeb-Regular.woff") format("woff");
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Heldane-Text";
+  src: url("/fonts/HeldaneTextWeb-RegularItalic.woff") format("woff");
+  display: swap;
+  font-weight: 400;
+  font-style: italic;
+  font-feature-settings: "ss10" !important;
+}
+
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -94,6 +111,7 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit;
+  font-family: "Heldane-Text";
 }
 
 /*
