@@ -3,6 +3,40 @@
 /*! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com */
 
 @font-face {
+  font-family: "Founders-Condensed";
+  src: url("/fonts/FoundersGroteskCondensedWeb-Bold.woff") format("woff");
+  display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Founders-Mono";
+  src: url("/fonts/FoundersGroteskMonoWeb-Bold.woff") format("woff");
+  display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Founders-Mono";
+  src: url("/fonts/FoundersGroteskMonoWeb-Regular.woff") format("woff");
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Founders-Mono-Text";
+  src: url("/fonts/FoundersGroteskTextWeb-Medium.woff") format("woff");
+  display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+@font-face {
   font-family: "Heldane-Text";
   src: url("/fonts/HeldaneTextWeb-Regular.woff") format("woff");
   display: swap;
@@ -17,6 +51,38 @@
   font-weight: 400;
   font-style: italic;
   font-feature-settings: "ss10" !important;
+}
+
+@font-face {
+  font-family: "Heldane";
+  src: url("/font/HeldaneDisplayWeb-Bold.woff") format("woff");
+  display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Heldane";
+  src: url("/font/HeldaneDisplayWeb-Medium.woff") format("woff");
+  display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Heldane";
+  src: url("/font/HeldaneDisplayWeb-Regular.woff") format("woff");
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --font-family-heading: "Heldane";
+  --font-family-subheading: "Founders-Condensed";
+  --font-family-body: "Heldane-Text";
+  --font-family-meta: "Founders-Mono";
+  --font-family-menu: "Founders-Mono-Text";
 }
 
 /*
@@ -73,6 +139,7 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+  font-family: var(--font-family-body)
 }
 
 /*
@@ -111,7 +178,7 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit;
-  font-family: "Heldane-Text";
+  font-family: var(--font-family-heading);
 }
 
 /*
